@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document for Shelter demo */
+
+.section {
+	clear: both;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(98,98,98);
+    background-color: #fff;
+}
+
+.title {
+   color: rgb(56,56,56);
+   font-weight: 200;
+}
+
+.content {
+	text-align: center;
+	min-height: 85%;
+}
+
+.intro-text, .map-container {
+	position: relative;
+	max-width: 990px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.column {
+	position: relative;
+    /*max-width: 450px;
+    min-width: 250px;*/
+	width: 45%;
+    float: left;
+    margin: auto 1em;
+}
+
+.column p {
+	
+}
+
+.map-container {
+	clear: both;
+}
+
+.key-holder {
+	width: 250px;
+	float: right;
+	margin-right: 20%
+}
+
+.map-holder {
+	width: 350px;
+}
+
+ul {
+list-style: none;
+text-align: left;
+}
+
+li {
+
+}
+
+li:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 2.8em;
+  width: 50px;
+  height: 50px;
+  margin: 0 15px 25px 0;
+}
+.glasgow:before {
+  background: #3e67b3;
+}
+.edinburgh:before {
+  background: #ffcd00;
+}
+.dundee:before {
+  background: #680e2a;
+}
+.aberdeen:before {
+  background: #33832f;
+}
